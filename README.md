@@ -14,7 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,7 +41,6 @@ Showed me that I still do not fully understand flexbox and its behaviour, took m
 The code feels more complex as need be, will redo it right after uploading v1.
 
 
-
 ### Continued development
 
 As noted aboce, will reinforce my knowledge about flexbox by redoing the whole challenge, as I'm not satisfied with the code, the result looks fine to me.
@@ -57,5 +55,3 @@ As noted aboce, will reinforce my knowledge about flexbox by redoing the whole c
 
 - Website - [Dominik Demuth]( website will be done as soon as I have improved my coding)
 - Frontend Mentor - [@tschokio](https://www.frontendmentor.io/profile/tschokio)
-
-
