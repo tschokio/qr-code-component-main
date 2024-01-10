@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color: #d8e1ef;
+      font-family: 'Outfit', sans-serif;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .first {
+      display: flex;
+      justify-self: center;
+      flex-grow: 1;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 100vh;
+      align-content: center;
+      justify-content: space-between;
+    
+    }
+
+    .window {align-self: center; text-align: center;display: flex; flex-direction: column; width: 250px; height: 425px; background-color: rgb(255, 255, 255); border-radius: 10px;}
+    h3 {font-size: 1rem; justify-self: center; font-weight: 700; color: hsl(218, 44%, 22%);}
+    p {font-size: 15px; font-weight: 400; color: hsl(220, 15%, 55%);}
+  </style>
+</head>
+<body>
+<div class="flex-container">
+  <div class="flexbox first">
+    <div class="window">
+
+      <img src="./images/image-qr-code.png" alt="qr code" width="230px" style="border-radius: 10px; align-self: center; margin-top: 10px; margin-bottom: 10px;">
+      <h3>Improve your front-end<br/> skills by building projects</h3>
+
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    
+    </div>
+  </div>
+  <div class="footer-flexbox flexbox second">
+  <footer >
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dominik D</a>.
+    
+    </div></div>
+  </footer>
+</div>
+
+</body>
+</html>
